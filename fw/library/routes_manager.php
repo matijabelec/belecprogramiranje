@@ -11,10 +11,15 @@ class Routes_Manager {
         return false;
     }
     
-    public static function Check_route($url) {
-        if(isset($url) )
-            return true;
-        return false;
+    public static function Check_route($controller, $action, $arguments) {
+        if(!isset($controller) || is_null($controller) )
+            return false;
+        if(!isset($action) || is_null($action) )
+            return false;
+        if(!isset($arguments) || is_null($arguments) )
+            return false;
+        
+        return true;
     }
 }
 
