@@ -16,7 +16,8 @@ class Router {
         
         if($ok == true) {
             // run controller
-            echo 'OK';
+            $cnt = new $controller;
+            $cnt->$action($arguments);
         } else {
             // show error
             echo 'Error';
