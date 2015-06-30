@@ -10,6 +10,10 @@ class Router {
             // show error
         }
     }
+    
+    public static function start() {
+        
+    }
 }
 
 ?>
