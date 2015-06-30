@@ -7,6 +7,7 @@ include_once('fw/main.php');
 $route_list = array();
 Routes_Manager::initialize_routes($route_list);
 
-
+// run router and show website
+Router::start();
 
 ?>
