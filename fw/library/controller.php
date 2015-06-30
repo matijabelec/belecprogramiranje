@@ -1,7 +1,7 @@
 <?php
 
-include_once('model.php');
-include_once('view.php');
+include_once('fw/library/model.php');
+include_once('fw/library/view.php');
 
 class Controller {
     

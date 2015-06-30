@@ -1,9 +1,9 @@
 <?php
 
-include_once('template.php');
+include_once('fw/library/template.php');
 
 class Template_manager {
-    public static 
+    
 }
 
 ?>

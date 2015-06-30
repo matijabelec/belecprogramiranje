@@ -1,8 +1,8 @@
 <?php
 
-include_once('config.php');
+include_once('fw/library/config.php');
 
-include_once('template_manager.php');
-include_once('router.php');
+include_once('fw/library/template_manager.php');
+include_once('fw/library/router.php');
 
 ?>
